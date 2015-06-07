@@ -32,7 +32,7 @@ heroku addons:add heroku-postgresql:dev
 * Add [Heroku scheduler](https://scheduler.heroku.com) to your application:
 
 ```bash
-heroku addons:add scheduler
+heroku addons:create scheduler
 ```
 
 * Set the [environment variables](#environment-variables) for the application, substituting your own values for those shown. Start with the Slack details:
