@@ -37,6 +37,8 @@ heroku addons:create scheduler
 
 * Set the [environment variables](#environment-variables) for the application, substituting your own values for those shown. Start with the Slack details:
 
+Warning: Don't enable **Two factor authentication**, this can't work with two factor authentication.
+
 ```bash
 heroku config:add SLACK_SUBDOMAIN=yourteam
 heroku config:add SLACK_USERNAME=youremail
